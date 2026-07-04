@@ -49,6 +49,9 @@ strong, b {
 .gray {
   color: var(--gray);
 }
+.gray a {
+  color: var(--gray);
+}
 
 /* text size */
 .big-text {
