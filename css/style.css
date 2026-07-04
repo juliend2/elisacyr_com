@@ -60,14 +60,30 @@ strong, b {
 .bigger-text {
   font-size: 2.0rem;
 }
+@media (max-width: 760px) {
+  .bigger-text {
+    font-size: 1.7rem;
+  }
+}
 .xl-text {
   font-size: 2.8rem;
+}
+@media (max-width: 760px) {
+  .xl-text {
+    font-size: 2.0rem;
+  }
 }
 
 /* buttons */
 .cta-container {
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+@media (max-width: 760px) {
+  .cta-container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
 }
 .cta-container.smaller {
   padding-top: 2rem;
@@ -112,9 +128,15 @@ strong, b {
   width: 15px;
 }
 
+
 .section .inner {
   max-width: 1200px;
   margin: 0 auto;
+}
+@media (max-width: 760px) {
+  .section {
+    padding: 0 1rem;
+  }
 }
 
 .logo {
@@ -155,6 +177,11 @@ strong, b {
   width: 60vw;
   list-style: none;
 }
+@media (max-width: 760px) {
+  .nav .main-nav {
+    display: none;
+  }
+}
 .nav .logo {
   width: 40vw;
   line-height: 6rem;
@@ -188,8 +215,25 @@ strong, b {
 .blogue {
   background: var(--pastel-gray);
 }
+.blogue .inner {
+  display: flex;
+}
+@media (max-width: 760px) {
+  .blogue .inner {
+    display: block;
+  }
+  .blogue .left,
+  .blogue .right {
+    width: 100%;
+  }
+}
 .blogue .padding-y {
   padding-bottom: 8rem;
+}
+@media (max-width: 760px) {
+  .blogue .padding-y {
+    padding-bottom: 3rem;
+  }
 }
 .blogue h2 {
   margin-bottom: 1rem;
@@ -204,14 +248,34 @@ strong, b {
 .blogue-post {
   padding-right: 3rem;
 }
+@media (max-width: 760px) {
+  .blogue-post:first-child {
+    margin-top: 0rem;
+  }
+  .blogue-post {
+    margin-top: 2rem;
+    padding-right: 0rem;
+  }
+}
 
 /* presentation */
 .presentation {
   margin-top: 10rem;
   margin-bottom: 14rem;
 }
+@media (max-width: 760px) {
+  .presentation {
+    margin-top: 0rem;
+    margin-bottom: 3rem;
+  }
+}
 .presentation .left {
   width: 40%;
+}
+@media (max-width: 760px) {
+  .presentation .left {
+    display: none;
+  }
 }
 .presentation .right {
   padding-top: 7vh;
@@ -228,6 +292,11 @@ strong, b {
 }
 .presentation .right {
   width: 60%;
+}
+@media (max-width: 760px) {
+  .presentation .right {
+    width: 100%;
+  }
 }
 .elisa {
   border-radius: 50%;
@@ -247,8 +316,18 @@ strong, b {
   width: 40%;
   padding: 3rem;
 }
+@media (max-width: 760px) {
+  .a-montreal .left {
+    display: none;
+  }
+}
 .a-montreal .right {
   width: 60%;
+}
+@media (max-width: 760px) {
+  .a-montreal .right {
+    width: 100%;
+  }
 }
 .coin-de-rue {
   margin-top: -6rem;
@@ -265,6 +344,19 @@ strong, b {
   gap: 3rem;
   padding: 2rem 0 2rem 0;
   text-align: center;
+}
+@media (max-width: 760px) {
+  .services .grid-container {
+    display: block;
+  }
+}
+@media (max-width: 760px) {
+  .service:first-child {
+    margin-top: 1rem;
+  }
+  .service {
+    margin-top: 2rem;
+  }
 }
 .services img {
   max-width: 70px;
