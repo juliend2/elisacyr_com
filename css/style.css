@@ -1,14 +1,15 @@
 :root {
   --black: #171717;
-  --white: #ffffff;
   --gray: #777;
-  --pastel-gray: #daebdd;
+  --pastel-gray: #e0e0e0;
+  --pastel-khaki: #daebdd;
+  --white: #ffffff;
   --yellow: #f0e67f;
   --yellow-dark: #efcf7f;
 }
 
 body {
-  font-family: 'ClashGrotesk-Regular';
+  font-family: 'ClashGrotesk';
   background: var(--white) url('/images/paperclips.jpg') no-repeat right top;
   background-size: 250px;
 }
@@ -19,9 +20,21 @@ a:visited {
 
 h1, h2 {
   font-family: 'ClashDisplay-Regular';
+  line-height: 1.2;
+}
+h3 {
+  font-weight: 500;
+}
+
+strong, b {
+  font-weight: 500;
 }
 
 /* utilities */
+.padding-y {
+  padding-top: 7vh;
+  padding-bottom: 7vh;
+}
 .flexbox {
   display: flex;
 }
@@ -53,17 +66,37 @@ h1, h2 {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
+.cta-container.smaller {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
 .cta {
-  background: var(--yellow);
+  background: url(/images/post-it.jpg) left bottom;
+  background-size: cover;
   padding: 1.4rem;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 1.4rem;
   color: var(--black);
   text-decoration: none;
   border: 5px solid var(--white);
 }
+.cta-container.smaller .cta {
+  padding: .7rem .9rem;
+}
 .cta:visited {
   color: var(--black);
+}
+.cta:hover, .cta:active {
+  color: blue;
+}
+.cta:hover path,
+.cta:active path {
+  fill: blue;
+}
+.cta > svg {
+  display: inline-block;
+  margin-left: .5rem;
+  transform: scale(.7) translateY(.5rem);
 }
 /*
 .cta:hover, .cta:active {
@@ -137,6 +170,29 @@ h1, h2 {
 .left, .right {
   width: 50%;
 }
+
+/* blogue */
+.blogue {
+  background: var(--pastel-gray);
+}
+.blogue .padding-y {
+  padding-bottom: 8rem;
+}
+.blogue h2 {
+  margin-bottom: 1rem;
+}
+.blogue h2>a {
+  color: var(--black);
+  text-decoration: none;
+}
+.blogue h2>a:hover {
+  color: blue;
+}
+.blogue-post {
+  padding-right: 3rem;
+}
+
+/* presentation */
 .presentation {
   margin-top: 10rem;
   margin-bottom: 14rem;
@@ -170,20 +226,16 @@ h1, h2 {
   box-shadow: -1px 3px 6px -1px rgba(0,0,0,0.33);
 }
 
+/* a montreal */
 .a-montreal {
-  margin-top: 3rem;
-  background: var(--pastel-gray);
+  background: var(--pastel-khaki);
 }
 .a-montreal .left {
   width: 40%;
-  padding: 3rem 3rem 3rem;
+  padding: 3rem;
 }
 .a-montreal .right {
   width: 60%;
-}
-.a-montreal .right.padding-y {
-  padding-top: 7vh;
-  padding-bottom: 7vh;
 }
 .coin-de-rue {
   margin-top: -6rem;
@@ -195,9 +247,21 @@ h1, h2 {
 
 .services .grid-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 3rem;
+  padding: 2rem 0 2rem 0;
+  text-align: center;
+}
+.services img {
+  max-width: 70px;
+  margin: 0 auto;
+}
+.services h3 {
+  margin-top: .2rem;
+}
+.services p {
+  padding: 0 2rem;
 }
 
 
