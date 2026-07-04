@@ -4,12 +4,17 @@
   --gray: #777;
   --pastel-gray: #daebdd;
   --yellow: #f0e67f;
+  --yellow-dark: #efcf7f;
 }
 
 body {
   font-family: 'ClashGrotesk-Regular';
   background: var(--white) url('/images/paperclips.jpg') no-repeat right top;
   background-size: 250px;
+}
+
+a:visited {
+  color: blue; /* stays blue */
 }
 
 h1, h2 {
@@ -57,6 +62,14 @@ h1, h2 {
   text-decoration: none;
   border: 5px solid var(--white);
 }
+.cta:visited {
+  color: var(--black);
+}
+/*
+.cta:hover, .cta:active {
+  background: var(--white);
+}
+*/
 .cta .right-arrow {
   display: inline-block;
   margin-left: 10px;
