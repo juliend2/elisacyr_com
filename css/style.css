@@ -155,8 +155,19 @@ strong, b {
   justify-content: flex-end;
   padding: 5px;
 }
+@media (max-width: 760px) {
+  .socials ul {
+    justify-content: flex-start;
+    padding-left: 0px;
+  }
+}
   .socials li {
     margin-left: 5px;
+  }
+  @media (max-width: 760px) {
+    .socials li {
+      margin-right: 5px;
+    }
   }
     .socials img {
       width: 1.5rem;
