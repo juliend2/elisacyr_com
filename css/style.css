@@ -104,6 +104,10 @@ h1, h2 {
       width: 1.5rem;
       height: 1.5rem;
     }
+    .socials img:hover {
+      opacity: .5;
+    }
+
 
 .nav {
   display: flex;
@@ -184,6 +188,18 @@ h1, h2 {
 .coin-de-rue {
   margin-top: -6rem;
 }
+
+/* services */
+.services {
+}
+
+.services .grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+}
+
 
 .footer {
   margin-top: 3rem;
