@@ -159,12 +159,22 @@ strong, b {
 .main-nav li {
 }
 .main-nav a {
+  font-family: 'ClashGrotesk';
   text-decoration: none;
   color: var(--black);
   display: block;
   line-height: 6rem;
   padding-left: 20px;
   padding-right: 20px;
+  font-weight: 500;
+}
+.main-nav .active a {
+  background: var(--black);
+  color: white;
+}
+.main-nav .active a:before {
+  background: var(--black);
+  transform: scaleY(1);
 }
 
 .left, .right {
