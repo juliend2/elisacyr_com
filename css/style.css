@@ -8,6 +8,11 @@
   --yellow-dark: #efcf7f;
 }
 
+::selection {
+  background: blue;
+  color: white;
+}
+
 body {
   font-family: 'ClashGrotesk';
   background: var(--white) url('/images/paperclips.jpg') no-repeat right top;
@@ -30,7 +35,14 @@ strong, b {
   font-weight: 500;
 }
 
+table td {
+  vertical-align: top;
+}
+
 /* utilities */
+.no-wrap {
+  white-space: nowrap;
+}
 .left, .right {
   width: 50%;
 }
@@ -314,6 +326,48 @@ strong, b {
     margin-top: 2rem;
     padding-right: 0rem;
   }
+}
+
+/* article titre */
+.article-titre {
+  background: var(--pastel-khaki);
+}
+
+/* article de blogue */
+.article {
+  margin-top: 1rem;
+}
+.article .left {
+  width: 70%;
+  padding-right: 3rem;
+}
+.article h1 {
+  margin-bottom: .7rem;
+}
+.article h2 {
+  margin-top: 2rem;
+  margin-bottom: .7rem;
+}
+.article p, .article table, .article blockquote, .article pre {
+  margin-bottom: .5rem;
+}
+.article-meta {
+  margin-bottom: 1rem;
+  color: var(--gray);
+}
+.article .right {
+  width: 30%;
+  padding: 2rem;
+}
+.article .elisa-figure {
+  width: 90%;
+}
+.article .cta-container.smaller {
+  padding-top: 1rem;
+}
+.article .cta-container.smaller .cta {
+  font-size: 1rem;
+  line-height: 2.5rem;
 }
 
 /* presentation */
