@@ -31,6 +31,10 @@ h3 {
   font-weight: 500;
 }
 
+p, table, pre, blockquote {
+  font-size: 1.2rem;
+}
+
 strong, b {
   font-weight: 500;
 }
@@ -337,9 +341,23 @@ table td {
 .article {
   margin-top: 1rem;
 }
+.article .inner {
+  display: flex;
+}
+@media (max-width: 760px) {
+  .article .inner {
+    display: block;
+  }
+}
 .article .left {
   width: 70%;
   padding-right: 3rem;
+}
+@media (max-width: 760px) {
+  .article .left {
+    width: 100%;
+    padding-right: 0;
+  }
 }
 .article h1 {
   margin-bottom: .7rem;
@@ -350,14 +368,24 @@ table td {
 }
 .article p, .article table, .article blockquote, .article pre {
   margin-bottom: .5rem;
+  font-size: 1.2rem;
 }
-.article-meta {
+.article .article-meta {
+  font-size: 1rem;
   margin-bottom: 1rem;
   color: var(--gray);
 }
 .article .right {
   width: 30%;
   padding: 2rem;
+}
+@media (max-width: 760px) {
+  .article .right {
+    width: 100%;
+    padding: 2rem;
+    background: var(--pastel-khaki);
+    margin-top: 3rem;
+  }
 }
 .article .elisa-figure {
   width: 90%;
