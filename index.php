@@ -1,3 +1,29 @@
+<?php
+
+$pages = [
+  'accueil',
+  'blogue',
+  'services',
+  'contact',
+];
+
+$current_page = 'accueil';
+
+function active($slug) {
+  global $current_page;
+
+  if (!isset($current_page)) {
+    return '';
+  }
+
+  if ($current_page == $slug) {
+    return 'active';
+  }
+
+  return '';
+}
+
+?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -44,10 +70,10 @@
             <nav aria-label="Mobile Navigation">
               <ul class="">
                 <!-- DON'T FORGET TO ALSO UPDATE THE DESKTOP MENU ITEMS -->
-                <li class="active"><a href="">Accueil</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="/blogue.html">Blogue</a></li>
-                <li><a href="">Contact</a></li>
+                <li class="<?= active('accueil') ?>"><a href="">Accueil</a></li>
+                <li class="<?= active('services') ?>"><a href="">Services</a></li>
+                <li class="<?= active('blogue') ?>"  ><a href="/blogue.html">Blogue</a></li>
+                <li class="<?= active('contact') ?>" ><a href="">Contact</a></li>
               </ul>
             </nav>
           </dialog>
@@ -57,10 +83,10 @@
             <h1 class="logo"><a href="/">Élisa Cyr</a></h1>
             <ul class="main-nav">
               <!-- DON'T FORGET TO ALSO UPDATE THE MOBILE MENU ITEMS -->
-              <li class="active"><a class="hvr-sweep-to-bottom" href="">Accueil</a></li>
-              <li><a class="hvr-sweep-to-bottom" href="">Services</a></li>
-              <li><a class="hvr-sweep-to-bottom" href="">Blogue</a></li>
-              <li><a class="hvr-sweep-to-bottom" href="">Contact</a></li>
+              <li class="<?= active('accueil') ?>"><a class="hvr-sweep-to-bottom" href="">Accueil</a></li>
+              <li class="<?= active('services') ?>"><a class="hvr-sweep-to-bottom" href="">Services</a></li>
+              <li class="<?= active('blogue') ?>"  ><a class="hvr-sweep-to-bottom" href="">Blogue</a></li>
+              <li class="<?= active('contact') ?>" ><a class="hvr-sweep-to-bottom" href="">Contact</a></li>
             </ul>
           </nav>
         </div><!-- /inner -->
