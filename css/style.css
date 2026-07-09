@@ -3,7 +3,7 @@
   --gray: #777;
   --pastel-gray: #e0e0e0;
   --pastel-khaki: #daebdd;
-  --white: #ffffff;
+  --white: #fef8f2;
   --yellow: #f0e67f;
   --yellow-dark: #efcf7f;
 }
@@ -411,6 +411,7 @@ table td {
 }
 .presentation .left {
   width: 40%;
+  padding-right: 2rem;
 }
 @media (max-width: 760px) {
   .presentation .left {
