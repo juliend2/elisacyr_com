@@ -39,7 +39,7 @@ if ($slug === '' || !is_file($article_path)) {
             </figcaption>
           </figure>
           <p class="cta-container smaller centered">
-            <a href="/contact" class="cta hvr-sweep-to-top">Premier RV gratuit
+            <a href="https://calendly.com/gestion-elisacyr" class="cta hvr-sweep-to-top">Premier RV gratuit
               <svg xmlns="http://www.w3.org/2000/svg" width="25.14" height="25.14"><path d="m9 3.57 6.71 6.7H0v4.59h15.71l-6.7 6.7 3.56 3.58 12.57-12.57L12.57 0z"/></svg> </a>
           </p>
         </div>

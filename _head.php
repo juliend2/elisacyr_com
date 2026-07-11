@@ -20,9 +20,9 @@
       <div class="section socials">
         <div class="inner">
           <ul class="social-icons">
-            <li><a title="Envoyez-moi un courriel" href=""><img alt="Email" src="/images/icons-socials-mailme.png"></a></li>
-            <li><a title="Linkedin" href=""><img alt="Linkedin" src="/images/icons-socials-linkedin.png"></a></li>
-            <li><a title="Instagram" href=""><img alt="Instagram" src="/images/icons-socials-instagram.png"></a></li>
+            <li><a title="Envoyez-moi un courriel" href="mailto:gestion.elisacyr@gmail.com"><img alt="Email" src="/images/icons-socials-mailme.png"></a></li>
+            <li><a title="Linkedin" href="https://www.linkedin.com/in/elisa-cyr/"><img alt="Linkedin" src="/images/icons-socials-linkedin.png"></a></li>
+            <!--<li><a title="Instagram" href=""><img alt="Instagram" src="/images/icons-socials-instagram.png"></a></li>-->
             <li class="hamburger-holder">
             </li>
           </ul>
@@ -51,9 +51,9 @@
               <ul class="">
                 <!-- DON'T FORGET TO ALSO UPDATE THE DESKTOP MENU ITEMS -->
                 <li class="<?= active('accueil') ?>"><a href="/">Accueil</a></li>
-                <li class="<?= active('services') ?>"><a href="/services.php">Services</a></li>
+                <li class="<?= active('services') ?>"><a href="/#services">Services</a></li>
                 <li class="<?= active('blogue') ?>"  ><a href="/blogue.php">Blogue</a></li>
-                <li class="<?= active('contact') ?>" ><a href="/contact.php">Contact</a></li>
+                <li class="<?= active('contact') ?>" ><a href="mailto:gestion.elisacyr@gmail.com">Contact</a></li>
               </ul>
             </nav>
           </dialog>
@@ -64,9 +64,9 @@
             <ul class="main-nav">
               <!-- DON'T FORGET TO ALSO UPDATE THE MOBILE MENU ITEMS -->
               <li class="<?= active('accueil') ?>"><a class="hvr-sweep-to-bottom" href="/">Accueil</a></li>
-              <li class="<?= active('services') ?>"><a class="hvr-sweep-to-bottom" href="/services.php">Services</a></li>
+              <li class="<?= active('services') ?>"><a class="hvr-sweep-to-bottom" href="/#services">Services</a></li>
               <li class="<?= active('blogue') ?>"  ><a class="hvr-sweep-to-bottom" href="/blogue.php">Blogue</a></li>
-              <li class="<?= active('contact') ?>" ><a class="hvr-sweep-to-bottom" href="/contact.php">Contact</a></li>
+              <li class="<?= active('contact') ?>" ><a class="hvr-sweep-to-bottom" href="mailto:gestion.elisacyr@gmail.com">Contact</a></li>
             </ul>
           </nav>
         </div><!-- /inner -->

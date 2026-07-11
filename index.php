@@ -21,14 +21,14 @@ include __DIR__. '/_head.php';
             Bonjour!
             </h2>
             <p>
-            Vous vous sentez submergé par vos tâches administratives?<br>
-            <a href="#__TODO:METTRE_l'URL_CALENDLY_ICI__">Réservez dès
-              maintenant</a> votre <strong>session d'évaluation
-                gratuite</strong>
-            afin de découvrir comment je peux optimiser votre temps précieux.
+              Vous vous sentez submergé par vos tâches administratives?<br>
+              <a href="https://calendly.com/gestion-elisacyr">Réservez dès
+                maintenant</a> votre <strong>session d'évaluation
+                  gratuite</strong>
+              afin de découvrir comment je peux optimiser votre temps précieux.
             </p>
             <p>
-            — Élisa
+              — Élisa
             </p>
           </div>
         </div><!-- /inner -->
@@ -77,7 +77,7 @@ foreach ($articles as $path):
             C'est pourquoi je suis en plein coeur de Montréal, pour être présente lorsque nécessaire.
           </p>
           <p class="cta-container">
-            <a href="/contact" class="cta hvr-sweep-to-top">Céduler une rencontre en personne
+            <a href="https://calendly.com/gestion-elisacyr" class="cta hvr-sweep-to-top">Céduler une rencontre en personne
               <svg xmlns="http://www.w3.org/2000/svg" width="25.14" height="25.14"><path d="m9 3.57 6.71 6.7H0v4.59h15.71l-6.7 6.7 3.56 3.58 12.57-12.57L12.57 0z"/></svg> </a>
             </a>
           </p>
@@ -85,7 +85,7 @@ foreach ($articles as $path):
       </div><!-- /inner -->
 		</section>
 
-		<section class="section services">
+		<section id="services" class="section services">
       <div class="inner padding-y">
         <h2 class="bigger-text centered">Services</h2>
         <div class="grid-container">
