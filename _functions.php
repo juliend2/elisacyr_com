@@ -60,7 +60,7 @@ function parse_markdown_file($path) {
  * Parse simple `key: value` front matter into an associative array.
  *
  * @param string $raw The text between the --- delimiters.
- * @return array<string, string>
+ * @return array<string, string|bool>
  */
 function parse_front_matter($raw) {
   $headers = [];
@@ -73,7 +73,15 @@ function parse_front_matter($raw) {
     }
 
     list($key, $value) = explode(':', $line, 2);
-    $headers[trim($key)] = trim($value);
+    $value = trim($value);
+
+    // Cast bare true/false into real booleans (e.g. `draft: true`).
+    $lower = strtolower($value);
+    if ($lower === 'true' || $lower === 'false') {
+      $value = $lower === 'true';
+    }
+
+    $headers[trim($key)] = $value;
   }
 
   return $headers;

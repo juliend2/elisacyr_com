@@ -41,6 +41,7 @@ En planifiant vos journées de cette façon, vous réduisez le temps consacré a
 L’une des erreurs les plus fréquentes chez les entrepreneurs est de commencer chaque journée sans vision claire de la semaine à venir. Prenez entre 15 et 30 minutes à la fin de chaque semaine pour planifier la suivante. Identifiez vos objectifs principaux, vos rendez-vous importants, vos échéances et les tâches qui contribueront directement à l’atteinte de vos objectifs. Cette habitude vous permettra d’anticiper les imprévus, de mieux répartir votre charge de travail et de réduire le stress lié aux urgences de dernière minute.
 
 Quelques questions à vous poser lors de votre planification hebdomadaire : 
+
 * 1 : Quels sont mes trois objectifs prioritaires pour la semaine ?
 * 2 : Quels projets nécessitent le plus de temps et d’attention ? 
 * 3 : Quels rendez-vous ou échéances dois-je prévoir ? 

@@ -17,6 +17,7 @@ body {
   font-family: 'ClashGrotesk';
   background: var(--white) url('/images/paperclips.jpg') no-repeat right top;
   background-size: 250px;
+  font-size: 1.2rem;
 }
 
 a:visited {
@@ -31,9 +32,6 @@ h3 {
   font-weight: 500;
 }
 
-p, table, pre, blockquote {
-  font-size: 1.2rem;
-}
 
 strong, b {
   font-weight: 500;

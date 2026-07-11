@@ -37,50 +37,36 @@ include __DIR__. '/_head.php';
 
     <section class="section blogue">
       <div class="inner padding-y">
-        <div class="left blogue-post">
-          <h2 class="bigger-text"><a href="/blogue">3 astuces pour mieux organiser votre temps en
-              tant qu’entrepreneur(e)</a>
+<?php
+$articles = glob(__DIR__.'/articles/*.md');
+$i = 0;
+foreach ($articles as $path):
+  $article = parse_markdown_file($path);
+  if (!empty($article['headers']['draft'])) {
+    continue; // draft articles are hidden from the home page
+  }
+  $slug = basename($path, '.md');
+  $teaser = $article['excerpt'] ?? $article['body'];
+  $side = $i % 2 === 0 ? 'left' : 'right';
+  $i++;
+?>
+        <div class="<?= $side ?> blogue-post">
+          <h2 class="bigger-text"><a href="/blogue.php?article=<?= urlencode($slug) ?>"><?= htmlspecialchars($article['headers']['title'] ?? $slug) ?></a>
           </h2>
-          <p>
-          Vous en avez assez de terminer vos journées épuisé(e)? Vous avez
-          l’impression d’être constamment dispersé(e) dans vos tâches?
-          Commencez-vous plusieurs projets importants sans jamais les mener
-          complètement à terme? Une bonne gestion du temps est essentielle pour
-          gagner en efficacité et réduire le stress.</p>
-          <p>Voici trois clés qui vous
-          aideront à mieux vous organiser au quotidien.
-          </p>
+          <?= $teaser ?>
           <p class="cta-container smaller">
-            <a href="/contact" class="cta hvr-sweep-to-top">Lire la suite
+            <a href="/blogue.php?article=<?= urlencode($slug) ?>" class="cta hvr-sweep-to-top">Lire la suite
               <svg xmlns="http://www.w3.org/2000/svg" width="25.14" height="25.14"><path d="m9 3.57 6.71 6.7H0v4.59h15.71l-6.7 6.7 3.56 3.58 12.57-12.57L12.57 0z"/></svg> </a>
           </p>
         </div>
-        <div class="right blogue-post">
-          <h2 class="bigger-text"><a href="/blogue">3 astuces pour mieux organiser votre temps en
-              tant qu’entrepreneur(e)</a>
-          </h2>
-          <p>
-          Vous en avez assez de terminer vos journées épuisé(e)? Vous avez
-          l’impression d’être constamment dispersé(e) dans vos tâches?
-          Commencez-vous plusieurs projets importants sans jamais les mener
-          complètement à terme? Une bonne gestion du temps est essentielle pour
-          gagner en efficacité et réduire le stress.</p>
-          <p>Voici trois clés qui vous
-          aideront à mieux vous organiser au quotidien.
-          </p>
-          <p class="cta-container smaller">
-          <a href="/contact" class="cta hvr-sweep-to-top">Lire la suite
-            <svg xmlns="http://www.w3.org/2000/svg" width="25.14" height="25.14"><path d="m9 3.57 6.71 6.7H0v4.59h15.71l-6.7 6.7 3.56 3.58 12.57-12.57L12.57 0z"/></svg> </a>
-          </a>
-          </p>
-        </div>
+<?php endforeach ?>
       </div><!-- /inner -->
     </section>
 
 		<section class="section a-montreal">
       <div class="inner flexbox">
         <div class="left">
-          <figure class="coin-de-rue">
+          <figure class="coin-de-rue  ">
             <img src="/images/montreal.jpg" alt="Bureaux situés au coin St-Viateur et Casgrain" />
           </figure>
         </div>
