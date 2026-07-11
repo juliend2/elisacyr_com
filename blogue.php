@@ -9,13 +9,29 @@ include __DIR__. '/_head.php';
 $slug = isset($_GET['article']) ? basename($_GET['article']) : '';
 $article_path = __DIR__."/articles/$slug.md";
 
-if ($slug === '' || !is_file($article_path)) {
+// No slug at all -> show the list of articles instead of a single one.
+$show_list = $slug === '';
+
+if (!$show_list && !is_file($article_path)) {
   http_response_code(404);
   $article = ['headers' => ['title' => 'Article introuvable'], 'body' => '<p>Cet article n’existe pas.</p>'];
-} else {
+} elseif (!$show_list) {
   $article = parse_markdown_file($article_path);
 }
 ?>
+<?php if ($show_list): ?>
+    <section class="section article-titre">
+      <div class="inner padding-y">
+        <h1>Blogue</h1>
+      </div>
+    </section>
+
+		<section class="section blogue">
+      <div class="inner padding-y">
+        <?php include __DIR__.'/_blogue-liste.php'; ?>
+      </div><!-- /inner -->
+		</section>
+<?php else: ?>
     <section class="section article-titre">
       <div class="inner padding-y">
         <h1><?= htmlspecialchars($article['headers']['title'] ?? '') ?></h1>
@@ -50,6 +66,7 @@ if ($slug === '' || !is_file($article_path)) {
       <div class="inner">
       </div>
     </section>
+<?php endif ?>
 
 <?php
 include __DIR__. '/_foot.php';
