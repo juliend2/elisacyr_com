@@ -8,6 +8,12 @@
 		<link rel="stylesheet" href="./css/fonts/css/clash-grotesk.css">
 		<link rel="stylesheet" href="./css/animations.css">
 		<link rel="stylesheet" href="./css/style.css">
+    <script src="/js/rellax.min.js" defer></script>
+    <script>
+      window.onload = () => {
+        var rellax = new Rellax('.js-rellax')
+      }
+    </script>
 	</head>
 	<body class="body home">
 		<header class="header">

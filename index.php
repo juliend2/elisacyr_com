@@ -8,7 +8,7 @@ include __DIR__. '/_head.php';
       <div class="section presentation">
         <div class="inner flexbox">
           <div class="left">
-            <figure class="elisa-figure">
+            <figure class="elisa-figure  ">
               <img class="elisa" alt="Elisa Cyr" src="./images/elisa.png">
               <figcaption class="centered">
                 <h2>Élisa Cyr</h2>
@@ -16,7 +16,7 @@ include __DIR__. '/_head.php';
               </figcaption>
             </figure>
           </div>
-          <div class="right post-it big-text padding-y">
+          <div class="right post-it big-text padding-y  js-rellax"  data-rellax-speed="3">
             <h2 class="bigger-text">
             Bonjour!
             </h2>
