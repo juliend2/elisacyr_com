@@ -3,11 +3,11 @@
 	<head>
 		<meta charSet="utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<link rel="stylesheet" href="./css/reset.css">
-		<link rel="stylesheet" href="./css/fonts/css/clash-display.css">
-		<link rel="stylesheet" href="./css/fonts/css/clash-grotesk.css">
-		<link rel="stylesheet" href="./css/animations.css">
-		<link rel="stylesheet" href="./css/style.css">
+		<link rel="stylesheet" href="/css/reset.css">
+		<link rel="stylesheet" href="/css/fonts/css/clash-display.css">
+		<link rel="stylesheet" href="/css/fonts/css/clash-grotesk.css">
+		<link rel="stylesheet" href="/css/animations.css">
+		<link rel="stylesheet" href="/css/style.css">
     <script src="/js/rellax.min.js" defer></script>
     <script>
       window.onload = () => {
@@ -52,7 +52,7 @@
                 <!-- DON'T FORGET TO ALSO UPDATE THE DESKTOP MENU ITEMS -->
                 <li class="<?= active('accueil') ?>"><a href="/">Accueil</a></li>
                 <li class="<?= active('services') ?>"><a href="/#services">Services</a></li>
-                <li class="<?= active('blogue') ?>"  ><a href="/blogue.php">Blogue</a></li>
+                <li class="<?= active('blogue') ?>"  ><a href="/blogue">Blogue</a></li>
                 <li class="<?= active('contact') ?>" ><a href="mailto:gestion.elisacyr@gmail.com">Contact</a></li>
               </ul>
             </nav>
@@ -65,7 +65,7 @@
               <!-- DON'T FORGET TO ALSO UPDATE THE MOBILE MENU ITEMS -->
               <li class="<?= active('accueil') ?>"><a class="hvr-sweep-to-bottom" href="/">Accueil</a></li>
               <li class="<?= active('services') ?>"><a class="hvr-sweep-to-bottom" href="/#services">Services</a></li>
-              <li class="<?= active('blogue') ?>"  ><a class="hvr-sweep-to-bottom" href="/blogue.php">Blogue</a></li>
+              <li class="<?= active('blogue') ?>"  ><a class="hvr-sweep-to-bottom" href="/blogue">Blogue</a></li>
               <li class="<?= active('contact') ?>" ><a class="hvr-sweep-to-bottom" href="mailto:gestion.elisacyr@gmail.com">Contact</a></li>
             </ul>
           </nav>

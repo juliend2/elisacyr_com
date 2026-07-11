@@ -48,7 +48,7 @@ if (!$show_list && !is_file($article_path)) {
         </div>
         <div class="right ">
           <figure class="elisa-figure">
-            <img class="elisa" alt="Elisa Cyr" src="./images/elisa.png">
+            <img class="elisa" alt="Elisa Cyr" src="/images/elisa.png">
             <figcaption class="centered">
               <h3>Élisa Cyr</h3>
               <h4 class="weight-normal gray">Assistante virtuelle</h4>

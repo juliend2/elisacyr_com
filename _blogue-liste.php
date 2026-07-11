@@ -14,11 +14,11 @@ foreach ($articles as $path):
   $i++;
 ?>
         <div class="<?= $side ?> blogue-post">
-          <h2 class="bigger-text"><a href="/blogue.php?article=<?= urlencode($slug) ?>"><?= htmlspecialchars($article['headers']['title'] ?? $slug) ?></a>
+          <h2 class="bigger-text"><a href="/blogue/<?= rawurlencode($slug) ?>"><?= htmlspecialchars($article['headers']['title'] ?? $slug) ?></a>
           </h2>
           <?= $teaser ?>
           <p class="cta-container smaller">
-            <a href="/blogue.php?article=<?= urlencode($slug) ?>" class="cta hvr-sweep-to-top">Lire la suite
+            <a href="/blogue/<?= rawurlencode($slug) ?>" class="cta hvr-sweep-to-top">Lire la suite
               <svg xmlns="http://www.w3.org/2000/svg" width="25.14" height="25.14"><path d="m9 3.57 6.71 6.7H0v4.59h15.71l-6.7 6.7 3.56 3.58 12.57-12.57L12.57 0z"/></svg> </a>
           </p>
         </div>

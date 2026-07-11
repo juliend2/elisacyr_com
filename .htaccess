@@ -1,0 +1,13 @@
+RewriteEngine On
+
+# Don't rewrite requests that map to a real file or directory
+# (assets, index.php, blogue.php accessed directly, etc.).
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Pretty blog URLs: /blogue/<slug> -> blogue.php?article=<slug>
+RewriteRule ^blogue/([^/]+)/?$ blogue.php?article=$1 [L,QSA]
+
+# Blog index: /blogue -> blogue.php (no article -> listing)
+RewriteRule ^blogue/?$ blogue.php [L,QSA]
