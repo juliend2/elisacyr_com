@@ -221,6 +221,11 @@ table td {
   width: 40vw;
   line-height: 6rem;
 }
+@media (max-width: 760px) {
+  .nav .logo {
+    width: 100vw;
+  }
+}
 .main-nav li {
 }
 .main-nav a {
