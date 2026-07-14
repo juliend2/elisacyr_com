@@ -25,7 +25,7 @@ include __DIR__. '/_head.php';
               <a href="https://calendly.com/gestion-elisacyr">Réservez dès
                 maintenant</a> votre <strong>session d'évaluation
                   gratuite</strong>
-              afin de découvrir comment je peux optimiser votre temps précieux.
+              afin de découvrir comment je peux optimiser votre précieux temps.
             </p>
             <p>
               — Élisa
