@@ -42,7 +42,7 @@ La matrice d’Eisenhower est un outil simple et efficace qui permet de classer 
         }
         th, td {
             border: 1px solid #dcdcdc;
-            padding: 25px; /* Augmente l'espace interne des cases */
+            padding: 25px; /* Augmente l'espace interne des cases  */
             vertical-align: top;
             font-size: 14px;
             line-height: 1.6; /* Aère les lignes de texte */
@@ -69,7 +69,7 @@ La matrice d’Eisenhower est un outil simple et efficace qui permet de classer 
         .bloc-case {
             display: flex;
             flex-direction: column;
-            gap: 15px; /* Crée un espace vertical régulier entre le titre, la description et l'exemple */
+            gap: 20px; /* Crée un espace vertical régulier entre le titre, la description et l'exemple */
         }
         .titre-action {
             text-transform: uppercase;
