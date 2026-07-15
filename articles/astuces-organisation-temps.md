@@ -27,112 +27,12 @@ La matrice d’Eisenhower est un outil simple et efficace qui permet de classer 
  * Ni urgent ni important : prenez le temps d’évaluer si ces tâches sont réellement nécessaires. Si elles le sont, planifiez-les à plus long terme.  
 
 
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-            font-family: Arial, sans-serif;
-            width: 100%;
-            max-width: 1100px;
-            margin: 20px auto;
-        }
-        th, td {
-            border: 1px solid #dcdcdc;
-            padding: 25px; 
-            vertical-align: top;
-            text-align: left;
-            font-size: 14px;
-            line-height: 1.5;
-        }
-        thead th {
-            font-size: 16px;
-            font-weight: bold;
-            padding-bottom: 20px;
-            border: none;
-            width: 40%; 
-            white-space: nowrap; 
-        }
-        thead th:first-child {
-            width: 20%; 
-        }
-        tbody th {
-            font-size: 16px;
-            font-weight: bold;
-            vertical-align: top;
-            padding-top: 25px;
-            width: 20%;
-            border: none;
-            white-space: nowrap; 
-        }
-        .contenu-case {
-            display: flex;
-            flex-direction: column;
-        }
-        .ligne-texte {
-            white-space: nowrap;
-            margin-bottom: 15px;
-        }
-        .ligne-texte:last-child {
-            margin-bottom: 0;
-        }
-        .titre-action {
-            font-weight: bold;
-        }
-        td {
-            color: #1a1a1a;
-        }
-    </style>
-</head>
-<body>
 
-<table>
-    <thead>
-        <tr>
-            <th></th>
-            <th>Urgent</th>
-            <th>Non urgent</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <th>Important</th>
-            <td>
-                <div class="contenu-case">
-                    <div class="ligne-texte titre-action">À FAIRE</div>
-                    <div class="ligne-texte">Faire immédiatement</div>
-                    <div class="ligne-texte">Ex: Gérer une urgence client ou bien Respecter une échéance.</div>
-                </div>
-            </td>
-            <td>
-                <div class="contenu-case">
-                    <div class="ligne-texte titre-action">À PLANIFIER</div>
-                    <div class="ligne-texte">Planifier dans votre agenda</div>
-                    <div class="ligne-texte">Ex : Formation, Planification Stratégique.</div>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <th>Non important</th>
-            <td>
-                <div class="contenu-case">
-                    <div class="ligne-texte titre-action">À DÉLÉGUER</div>
-                    <div class="ligne-texte">Confier à quelqu'un d'autre</div>
-                    <div class="ligne-texte">Ex : Demande administratives, Courriels peu stratégiques.</div>
-                </div>
-            </td>
-            <td>
-                <div class="contenu-case">
-                    <div class="ligne-texte titre-action">À ÉLIMINER OU REPORTER</div>
-                    <div class="ligne-texte">Remettre en question la pertinence de la tâche</div>
-                    <div class="ligne-texte">Ex : Navigations Réseaux Sociaux, Réunions inutiles.</div>
-                </div>
-            </td>
-        </tr>
-    </tbody>
-</table>
+| | Urgent | Non urgent |
+| :--- | :--- | :--- |
+| **Important** | **À FAIRE** <br><br> Faire immédiatement <br><br> Ex: Gérer une urgence client ou bien Respecter une échéance. | **À PLANIFIER** <br><br> Planifier dans votre agenda <br><br> Ex : Formation, Planification Stratégique. |
+| **Non important** | **À DÉLÉGUER** <br><br> Confier à quelqu'un d'autre <br><br> Ex : Demande administratives, Courriels peu stratégiques. | **À ÉLIMINER OU REPORTER** <br><br> Remettre en question la pertinence de la tâche <br><br> Ex : Navigations Réseaux Sociaux, Réunions inutiles. |
 
-</body>
-</html>
 
 
 
