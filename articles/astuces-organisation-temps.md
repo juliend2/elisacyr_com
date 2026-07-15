@@ -26,60 +26,11 @@ La matrice d’Eisenhower est un outil simple et efficace qui permet de classer 
 
  * Ni urgent ni important : prenez le temps d’évaluer si ces tâches sont réellement nécessaires. Si elles le sont, planifiez-les à plus long terme.  
 
-<table>
-  <thead>
-    <tr>
-      <th align="left"></th>
-      <th align="left"><b>Urgent</b></th>
-      <th align="left"><b>Non urgent</b></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td></td>
-      <td colspan="2">─────────────────────────────────────────────────────────────────────────</td>
-    </tr>
-    <tr>
-      <td valign="top"><b>Important</b></td>
-      <td valign="top">
-        <b>À FAIRE</b><br><br>
-        Faire immédiatement<br><br>
-        Ex: Gérer une urgence client ou bien<br>
-        Respecter une échéance.
-      </td>
-      <td valign="top">
-        │ <b>À PLANIFIER</b><br>
-        │<br>
-        │ Planifier dans votre agenda<br>
-        │<br>
-        │ Ex : Formation, Planification<br>
-        │ Stratégique.
-      </td>
-    </tr>
-    <tr>
-      <td></td>
-      <td colspan="2">─────────────────────────────────────────────────────────────────────────</td>
-    </tr>
-    <tr>
-      <td valign="top"><b>Non important</b></td>
-      <td valign="top">
-        <b>À DÉLÉGUER</b><br><br>
-        Confier à quelqu'un d'autre<br><br>
-        Ex : Demande administratives,<br>
-        Courriels peu stratégiques.
-      </td>
-      <td valign="top">
-        │ <b>À ÉLIMINER OU REPORTER</b><br>
-        │<br>
-        │ Remettre en question la<br>
-        │ pertinence de la tâche<br>
-        │<br>
-        │ Ex : Navigations Réseaux<br>
-        │ Sociaux, Réunions inutiles.
-      </td>
-    </tr>
-  </tbody>
-</table>
+
+| | Urgent | Non urgent |
+| :--- | :--- | :--- |
+| **Important** | **À FAIRE** <br><br> Faire immédiatement <br><br> Ex: Gérer une urgence client ou bien Respecter une échéance. | **À PLANIFIER** <br><br> Planifier dans votre agenda <br><br> Ex : Formation, Planification Stratégique. |
+| **Non important** | **À DÉLÉGUER** <br><br> Confier à quelqu'un d'autre <br><br> Ex : Demande administratives, Courriels peu stratégiques. | **À ÉLIMINER OU REPORTER** <br><br> Remettre en question la pertinence de la tâche <br><br> Ex : Navigations Réseaux Sociaux, Réunions inutiles. |
 
 
 
