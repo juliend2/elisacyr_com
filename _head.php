@@ -12,6 +12,24 @@
     <script>
       window.onload = () => {
         var rellax = new Rellax('.js-rellax')
+
+        var mobileMenu = document.getElementById('mobile-menu')
+
+        if (mobileMenu) {
+          // Hide the mobile menu when clicking on an anchor,
+          // otherwise the dialog stays open.
+          var mobileMenuLinks = mobileMenu.querySelectorAll('a')
+
+          mobileMenuLinks.forEach(function (link) {
+            link.addEventListener('click', function () {
+              if (typeof mobileMenu.close === 'function') {
+                mobileMenu.close()
+              } else {
+                mobileMenu.removeAttribute('open')
+              }
+            })
+          })
+        }
       }
     </script>
 	</head>
