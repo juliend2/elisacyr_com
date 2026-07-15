@@ -37,47 +37,39 @@ La matrice d’Eisenhower est un outil simple et efficace qui permet de classer 
             border-collapse: collapse;
             font-family: Arial, sans-serif;
             width: 100%;
-            max-width: 700px;
+            max-width: 750px;
             margin: 20px auto;
         }
         th, td {
             border: 1px solid #dcdcdc;
-            padding: 25px; /* Augmente l'espace interne des cases  */
+            padding: 25px 20px; /* Espace intérieur aéré */
             vertical-align: top;
-            font-size: 14px;
-            line-height: 1.6; /* Aère les lignes de texte */
-        }
-        thead th {
             text-align: left;
-            font-weight: bold;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        /* En-têtes du haut (Urgent / Non urgent) */
+        thead th {
             font-size: 16px;
-            padding-bottom: 15px;
+            font-weight: bold;
+            padding-bottom: 20px;
+            border: none; /* Enlève les bordures du haut comme l'original */
         }
         thead th:first-child {
-            border: none;
             width: 20%;
         }
+        /* En-têtes des lignes (Important / Non important) */
         tbody th {
-            text-align: left;
-            font-weight: bold;
             font-size: 16px;
+            font-weight: bold;
             vertical-align: top;
             padding-top: 25px;
             width: 20%;
+            border: none; /* Enlève les bordures latérales gauche */
         }
-        /* Gestion des espaces et des retours à la ligne à l'intérieur des cases */
-        .bloc-case {
-            display: flex;
-            flex-direction: column;
-            gap: 20px; /* Crée un espace vertical régulier entre le titre, la description et l'exemple */
-        }
-        .titre-action {
-            text-transform: uppercase;
-            font-weight: bold;
-            letter-spacing: 0.5px;
-        }
-        .exemple-texte {
-            color: #333;
+        /* Style spécifique pour le texte à l'intérieur des cases */
+        td {
+            color: #1a1a1a;
         }
     </style>
 </head>
@@ -86,7 +78,7 @@ La matrice d’Eisenhower est un outil simple et efficace qui permet de classer 
 <table>
     <thead>
         <tr>
-            <th></th>
+            <th></th> <!-- Case vide en haut à gauche -->
             <th>Urgent</th>
             <th>Non urgent</th>
         </tr>
@@ -95,35 +87,27 @@ La matrice d’Eisenhower est un outil simple et efficace qui permet de classer 
         <tr>
             <th>Important</th>
             <td>
-                <div class="bloc-case">
-                    <span class="titre-action">À FAIRE</span>
-                    <span>Faire immédiatement</span>
-                    <span class="exemple-texte">Ex: Gérer une urgence client ou bien Respecter une échéance.</span>
-                </div>
+                À FAIRE<br><br>
+                Faire immédiatement<br><br>
+                Ex: Gérer une urgence client ou bien Respecter une échéance.
             </td>
             <td>
-                <div class="bloc-case">
-                    <span class="titre-action">À PLANIFIER</span>
-                    <span>Planifier dans votre agenda</span>
-                    <span class="exemple-texte">Ex : Formation, Planification Stratégique.</span>
-                </div>
+                À PLANIFIER<br><br>
+                Planifier dans votre agenda<br><br>
+                Ex : Formation, Planification Stratégique.
             </td>
         </tr>
         <tr>
             <th>Non important</th>
             <td>
-                <div class="bloc-case">
-                    <span class="titre-action">À DÉLÉGUER</span>
-                    <span>Confier à quelqu'un d'autre</span>
-                    <span class="exemple-texte">Ex : Demandes administratives, Courriels peu stratégiques.</span>
-                </div>
+                À DÉLÉGUER<br><br>
+                Confier à quelqu'un d'autre<br><br>
+                Ex : Demande administratives, Courriels peu stratégiques.
             </td>
             <td>
-                <div class="bloc-case">
-                    <span class="titre-action">À ÉLIMINER OU REPORTER</span>
-                    <span>Remettre en question la pertinence de la tâche</span>
-                    <span class="exemple-texte">Ex : Navigations Réseaux Sociaux, Réunions inutiles.</span>
-                </div>
+                À ÉLIMINER OU REPORTER<br><br>
+                Remettre en question la pertinence de la tâche<br><br>
+                Ex : Navigations Réseaux Sociaux, Réunions inutiles.
             </td>
         </tr>
     </tbody>
@@ -131,6 +115,7 @@ La matrice d’Eisenhower est un outil simple et efficace qui permet de classer 
 
 </body>
 </html>
+
 
 ## 2. Organisez votre journée à l’aide de blocs de temps
 
