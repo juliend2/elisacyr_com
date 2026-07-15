@@ -27,11 +27,22 @@ La matrice d’Eisenhower est un outil simple et efficace qui permet de classer 
  * Ni urgent ni important : prenez le temps d’évaluer si ces tâches sont réellement nécessaires. Si elles le sont, planifiez-les à plus long terme.  
 
 
+<style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+  }
+  th, td {
+    border: 1px solid #dcdcdc !important;
+    padding: 20px !important;
+  }
+</style>
+
 | | Urgent | Non urgent |
 | :--- | :--- | :--- |
 | **Important** | **À FAIRE** <br><br> Faire immédiatement <br><br> Ex: Gérer une urgence client ou bien Respecter une échéance. | **À PLANIFIER** <br><br> Planifier dans votre agenda <br><br> Ex : Formation, Planification Stratégique. |
 | **Non important** | **À DÉLÉGUER** <br><br> Confier à quelqu'un d'autre <br><br> Ex : Demande administratives, Courriels peu stratégiques. | **À ÉLIMINER OU REPORTER** <br><br> Remettre en question la pertinence de la tâche <br><br> Ex : Navigations Réseaux Sociaux, Réunions inutiles. |
-
 
 
 ## 2. Organisez votre journée à l’aide de blocs de temps
