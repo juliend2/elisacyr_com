@@ -37,7 +37,7 @@ La matrice d’Eisenhower est un outil simple et efficace qui permet de classer 
             border-collapse: collapse;
             font-family: Arial, sans-serif;
             width: 100%;
-            max-width: 1100px; /* Élargi à 1100px pour que tout tienne sans retour à la ligne */
+            max-width: 1100px;
             margin: 20px auto;
         }
         th, td {
@@ -48,7 +48,6 @@ La matrice d’Eisenhower est un outil simple et efficace qui permet de classer 
             font-size: 14px;
             line-height: 1.5;
         }
-        /* En-têtes du haut (Urgent / Non urgent) */
         thead th {
             font-size: 16px;
             font-weight: bold;
@@ -60,7 +59,6 @@ La matrice d’Eisenhower est un outil simple et efficace qui permet de classer 
         thead th:first-child {
             width: 20%; 
         }
-        /* En-têtes des lignes (Important / Non important) */
         tbody th {
             font-size: 16px;
             font-weight: bold;
@@ -70,18 +68,16 @@ La matrice d’Eisenhower est un outil simple et efficace qui permet de classer 
             border: none;
             white-space: nowrap; 
         }
-        /* Structure interne des cases */
         .contenu-case {
             display: flex;
             flex-direction: column;
         }
-        /* Force chaque ligne de texte à rester sur une seule ligne */
         .ligne-texte {
             white-space: nowrap;
-            margin-bottom: 15px; /* Crée l'espace vertical entre les lignes */
+            margin-bottom: 15px;
         }
         .ligne-texte:last-child {
-            margin-bottom: 0; /* Enlève la marge sur la dernière ligne (l'exemple) */
+            margin-bottom: 0;
         }
         .titre-action {
             font-weight: bold;
