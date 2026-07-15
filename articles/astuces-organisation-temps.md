@@ -127,22 +127,8 @@ La matrice d’Eisenhower :
 </table>
 
 </body>
-</html>                       | Urgent                          | Non Urgent                                         |
-------------------------- | -------------------------       | ---------------------------------------------------|
-|Important                |  À FAIRE                        |  À PLANIFIER                                       |
-                          |                                 |  Planifier dans votre agenda                       |
-                          |  Faire immédiatement            |  Ex: Formation , Planification stratégique         |
-                          | Ex: Gérer une urgence client ou |
-                          | bien Respecter une échéance.    |
-|                         |                                 |
-|-------------------------| -------------------------       | -------------------------------------------------- |                 
-| Non Important           |    À DÉLÉGUER                   | À ÉLIMINER OU REPORTER                             |
-                                                            | Remettre en question la pertinence de la tâche     |
-                                                            | Ex :Navigations Réseaux Sociaux, Réunions inutiles.|
-                          |   Confier à quelqu’un d’autre   | 
-                          |  Ex.:Demande administratives,   | 
-                          |   Courriels peu stratégiques.   |
-|-------------------------| -------------------------       | --------------------------------------------------- |
+</html>                      
+
 ## 2. Organisez votre journée à l’aide de blocs de temps
 
 Une fois vos priorités établies grâce à la matrice d’Eisenhower, l’étape suivante consiste à structurer efficacement votre journée. La méthode des blocs de temps consiste à regrouper des tâches similaires dans des plages horaires déterminées. Cette approche permet de réduire les distractions, d’améliorer la concentration et d’augmenter la productivité. Pour maximiser les bénéfices de cette méthode, accordez à chaque bloc un objectif précis et évitez les interruptions pendant toute sa durée.
