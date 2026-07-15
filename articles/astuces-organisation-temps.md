@@ -28,7 +28,106 @@ La matrice d’Eisenhower est un outil simple et efficace qui permet de classer 
 
 
 La matrice d’Eisenhower :
-                          | Urgent                          | Non Urgent                                         |
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Matrice d'Eisenhower</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid #dcdcdc;
+            padding: 20px;
+            vertical-align: top;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        /* En-têtes du haut (Urgent / Non urgent) */
+        thead th {
+            text-align: left;
+            font-weight: bold;
+            font-size: 16px;
+            width: 40%;
+        }
+        /* En-tête de la première colonne vide */
+        thead th:first-child {
+            width: 20%;
+            border: none; /* Cache la bordure de la case vide */
+        }
+        /* Titres des lignes (Important / Non important) */
+        tbody th {
+            text-align: left;
+            font-weight: bold;
+            font-size: 16px;
+            vertical-align: middle;
+            border-left: none; /* Optionnel : aligne le style visuel de l'image */
+        }
+        /* Style des titres d'actions à l'intérieur des cases */
+        .action-title {
+            display: block;
+            font-weight: normal;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 15px;
+        }
+        .description {
+            display: block;
+            margin-bottom: 15px;
+        }
+        .exemple {
+            display: block;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <thead>
+        <tr>
+            <th></th> <!-- Case vide en haut à gauche -->
+            <th>Urgent</th>
+            <th>Non urgent</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>Important</th>
+            <td>
+                <span class="action-title"><strong>À FAIRE</strong></span>
+                <span class="description">Faire immédiatement</span>
+                <span class="exemple">Ex: Gérer une urgence client ou bien Respecter une échéance.</span>
+            </td>
+            <td>
+                <span class="action-title"><strong>À PLANIFIER</strong></span>
+                <span class="description">Planifier dans votre agenda</span>
+                <span class="exemple">Ex : Formation, Planification Stratégique.</span>
+            </td>
+        </tr>
+        <tr>
+            <th>Non important</th>
+            <td>
+                <span class="action-title"><strong>À DÉLÉGUER</strong></span>
+                <span class="description">Confier à quelqu'un d'autre</span>
+                <span class="exemple">Ex : Demandes administratives, Courriels peu stratégiques.</span>
+            </td>
+            <td>
+                <span class="action-title"><strong>À ÉLIMINER OU REPORTER</strong></span>
+                <span class="description">Remettre en question la pertinence de la tâche</span>
+                <span class="exemple">Ex : Navigations Réseaux Sociaux, Réunions inutiles.</span>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>                       | Urgent                          | Non Urgent                                         |
 ------------------------- | -------------------------       | ---------------------------------------------------|
 |Important                |  À FAIRE                        |  À PLANIFIER                                       |
                           |                                 |  Planifier dans votre agenda                       |
