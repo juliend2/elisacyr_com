@@ -27,7 +27,6 @@ La matrice d’Eisenhower est un outil simple et efficace qui permet de classer 
  * Ni urgent ni important : prenez le temps d’évaluer si ces tâches sont réellement nécessaires. Si elles le sont, planifiez-les à plus long terme.  
 
 
-La matrice d’Eisenhower :
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -38,50 +37,46 @@ La matrice d’Eisenhower :
             border-collapse: collapse;
             font-family: Arial, sans-serif;
             width: 100%;
-            max-width: 600px;
+            max-width: 700px;
             margin: 20px auto;
         }
         th, td {
             border: 1px solid #dcdcdc;
-            padding: 20px;
+            padding: 25px; /* Augmente l'espace interne des cases */
             vertical-align: top;
             font-size: 14px;
-            line-height: 1.5;
+            line-height: 1.6; /* Aère les lignes de texte */
         }
-        /* En-têtes du haut (Urgent / Non urgent) */
         thead th {
             text-align: left;
             font-weight: bold;
             font-size: 16px;
-            width: 40%;
+            padding-bottom: 15px;
         }
-        /* En-tête de la première colonne vide */
         thead th:first-child {
+            border: none;
             width: 20%;
-            border: none; /* Cache la bordure de la case vide */
         }
-        /* Titres des lignes (Important / Non important) */
         tbody th {
             text-align: left;
             font-weight: bold;
             font-size: 16px;
-            vertical-align: middle;
-            border-left: none; /* Optionnel : aligne le style visuel de l'image */
+            vertical-align: top;
+            padding-top: 25px;
+            width: 20%;
         }
-        /* Style des titres d'actions à l'intérieur des cases */
-        .action-title {
-            display: block;
-            font-weight: normal;
+        /* Gestion des espaces et des retours à la ligne à l'intérieur des cases */
+        .bloc-case {
+            display: flex;
+            flex-direction: column;
+            gap: 15px; /* Crée un espace vertical régulier entre le titre, la description et l'exemple */
+        }
+        .titre-action {
             text-transform: uppercase;
+            font-weight: bold;
             letter-spacing: 0.5px;
-            margin-bottom: 15px;
         }
-        .description {
-            display: block;
-            margin-bottom: 15px;
-        }
-        .exemple {
-            display: block;
+        .exemple-texte {
             color: #333;
         }
     </style>
@@ -91,7 +86,7 @@ La matrice d’Eisenhower :
 <table>
     <thead>
         <tr>
-            <th></th> <!-- Case vide en haut à gauche -->
+            <th></th>
             <th>Urgent</th>
             <th>Non urgent</th>
         </tr>
@@ -100,34 +95,42 @@ La matrice d’Eisenhower :
         <tr>
             <th>Important</th>
             <td>
-                <span class="action-title"><strong>À FAIRE</strong></span>
-                <span class="description">Faire immédiatement</span>
-                <span class="exemple">Ex: Gérer une urgence client ou bien Respecter une échéance.</span>
+                <div class="bloc-case">
+                    <span class="titre-action">À FAIRE</span>
+                    <span>Faire immédiatement</span>
+                    <span class="exemple-texte">Ex: Gérer une urgence client ou bien Respecter une échéance.</span>
+                </div>
             </td>
             <td>
-                <span class="action-title"><strong>À PLANIFIER</strong></span>
-                <span class="description">Planifier dans votre agenda</span>
-                <span class="exemple">Ex : Formation, Planification Stratégique.</span>
+                <div class="bloc-case">
+                    <span class="titre-action">À PLANIFIER</span>
+                    <span>Planifier dans votre agenda</span>
+                    <span class="exemple-texte">Ex : Formation, Planification Stratégique.</span>
+                </div>
             </td>
         </tr>
         <tr>
             <th>Non important</th>
             <td>
-                <span class="action-title"><strong>À DÉLÉGUER</strong></span>
-                <span class="description">Confier à quelqu'un d'autre</span>
-                <span class="exemple">Ex : Demandes administratives, Courriels peu stratégiques.</span>
+                <div class="bloc-case">
+                    <span class="titre-action">À DÉLÉGUER</span>
+                    <span>Confier à quelqu'un d'autre</span>
+                    <span class="exemple-texte">Ex : Demandes administratives, Courriels peu stratégiques.</span>
+                </div>
             </td>
             <td>
-                <span class="action-title"><strong>À ÉLIMINER OU REPORTER</strong></span>
-                <span class="description">Remettre en question la pertinence de la tâche</span>
-                <span class="exemple">Ex : Navigations Réseaux Sociaux, Réunions inutiles.</span>
+                <div class="bloc-case">
+                    <span class="titre-action">À ÉLIMINER OU REPORTER</span>
+                    <span>Remettre en question la pertinence de la tâche</span>
+                    <span class="exemple-texte">Ex : Navigations Réseaux Sociaux, Réunions inutiles.</span>
+                </div>
             </td>
         </tr>
     </tbody>
 </table>
 
 </body>
-</html>                      
+</html>
 
 ## 2. Organisez votre journée à l’aide de blocs de temps
 
