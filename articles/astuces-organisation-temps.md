@@ -16,7 +16,13 @@ Voici trois clés qui vous aideront à mieux vous organiser au quotidien.
 
 ## 1. Utilisez la matrice d’Eisenhower pour clarifier vos priorités
 
-La matrice d’Eisenhower est un outil simple et efficace qui permet de classer vos tâches selon deux critères : leur importance et leur urgence. Voici comment interpréter les différentes catégories : Urgent et important : ces tâches doivent être réalisées immédiatement. Important, mais non urgent : ces tâches méritent d’être planifiées rapidement afin d’éviter qu’elles ne deviennent urgentes. Urgent, mais non important : ces tâches peuvent souvent être déléguées, par exemple à votre assistante ou à un membre de votre équipe. Ni urgent ni important : prenez le temps d’évaluer si ces tâches sont réellement nécessaires. Si elles le sont, planifiez-les à plus long terme. La matrice d’Eisenhower : Urgent Non urgent Important À FAIRE Faire immédiatement Ex: Gérer une urgence client ou bien Respecter une échéance. À PLANIFIER Planifier dans votre agenda Ex : Formation, Planification Stratégique. Non important À DÉLÉGUER Confier à quelqu’un d’autre Ex.:Demande administratives, Courriels peu stratégiques. À ÉLIMINER OU REPORTER Remettre en question la pertinence de la tâche Ex : Navigations Réseaux Sociaux, Réunions inutiles. En prenant l’habitude de classer vos tâches selon cette méthode, vous gagnerez en clarté et concentrerez votre énergie sur ce qui génère réellement de la valeur pour votre entreprise.
+La matrice d’Eisenhower est un outil simple et efficace qui permet de classer vos tâches selon deux critères : leur importance et leur urgence. Voici comment interpréter les différentes catégories :
+| Urgent et Important       | ces tâches doivent être réalisées immédiatement.                                                          |
+| Important mais non urgent | ces tâches méritent d’être planifiées rapidement afin d’éviter qu’elles ne deviennent urgentes.
+| Urgent, mais non important| ces tâches peuvent souvent être déléguées, par exemple à votre assistante ou à un membre de votre équipe.|
+| Ni urgent ni important    | prenez le temps d’évaluer si ces tâches sont réellement nécessaires. Si elles le sont, planifiez-les à plus long terme.  |
+
+La matrice d’Eisenhower : Urgent Non urgent Important À FAIRE Faire immédiatement Ex: Gérer une urgence client ou bien Respecter une échéance. À PLANIFIER Planifier dans votre agenda Ex : Formation, Planification Stratégique. Non important À DÉLÉGUER Confier à quelqu’un d’autre Ex.:Demande administratives, Courriels peu stratégiques. À ÉLIMINER OU REPORTER Remettre en question la pertinence de la tâche Ex : Navigations Réseaux Sociaux, Réunions inutiles. En prenant l’habitude de classer vos tâches selon cette méthode, vous gagnerez en clarté et concentrerez votre énergie sur ce qui génère réellement de la valeur pour votre entreprise.
 
 ## 2. Organisez votre journée à l’aide de blocs de temps
 
