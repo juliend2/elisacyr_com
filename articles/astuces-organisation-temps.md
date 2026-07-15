@@ -28,10 +28,21 @@ La matrice d’Eisenhower est un outil simple et efficace qui permet de classer 
 
 
 
-| | Urgent | Non urgent |
-| :--- | :--- | :--- |
-| **Important** | **À FAIRE** <br><br> Faire immédiatement <br><br> Ex: Gérer une urgence client ou bien Respecter une échéance. | **À PLANIFIER** <br><br> Planifier dans votre agenda <br><br> Ex : Formation, Planification Stratégique. |
-| **Non important** | **À DÉLÉGUER** <br><br> Confier à quelqu'un d'autre <br><br> Ex : Demande administratives, Courriels peu stratégiques. | **À ÉLIMINER OU REPORTER** <br><br> Remettre en question la pertinence de la tâche <br><br> Ex : Navigations Réseaux Sociaux, Réunions inutiles. |
+<pre>
+                  │ Urgent                                          │ Non urgent
+──────────────────┼─────────────────────────────────────────────────┼───────────────────────────────────────────────────
+<b>Important</b>         │ <b>À FAIRE</b>                                         │ <b>À PLANIFIER</b>
+                  │                                                 │ 
+                  │ Faire immédiatement                             │ Planifier dans votre agenda
+                  │                                                 │ 
+                  │ Ex: Gérer une urgence client ou échéance.       │ Ex : Formation, Planification Stratégique.
+──────────────────┼─────────────────────────────────────────────────┼───────────────────────────────────────────────────
+<b>Non important</b>     │ <b>À DÉLÉGUER</b>                                      │ <b>À ÉLIMINER OU REPORTER</b>
+                  │                                                 │ 
+                  │ Confier à quelqu'un d'autre                     │ Remettre en question la pertinence de la tâche
+                  │                                                 │ 
+                  │ Ex : Demandes administratives, Courriels.       │ Ex : Navigations Réseaux Sociaux, Réunions.
+</pre>
 
 
 ## 2. Organisez votre journée à l’aide de blocs de temps
