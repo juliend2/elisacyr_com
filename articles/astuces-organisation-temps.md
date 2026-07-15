@@ -31,10 +31,6 @@ La matrice d’Eisenhower est un outil simple et efficace qui permet de classer 
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Matrice d'Eisenhower</title>
-    <style>
-        table {
-            border-collapse: collapse;
             font-family: Arial, sans-serif;
             width: 100%;
             max-width: 1100px;
