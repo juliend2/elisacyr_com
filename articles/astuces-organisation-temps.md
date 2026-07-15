@@ -28,21 +28,43 @@ La matrice d’Eisenhower est un outil simple et efficace qui permet de classer 
 
 
 
-<pre>
-                  │ Urgent                                          │ Non urgent
-──────────────────┼─────────────────────────────────────────────────┼───────────────────────────────────────────────────
-<b>Important</b>         │ <b>À FAIRE</b>                                         │ <b>À PLANIFIER</b>
-                  │                                                 │ 
-                  │ Faire immédiatement                             │ Planifier dans votre agenda
-                  │                                                 │ 
-                  │ Ex: Gérer une urgence client ou échéance.       │ Ex : Formation, Planification Stratégique.
-──────────────────┼─────────────────────────────────────────────────┼───────────────────────────────────────────────────
-<b>Non important</b>     │ <b>À DÉLÉGUER</b>                                      │ <b>À ÉLIMINER OU REPORTER</b>
-                  │                                                 │ 
-                  │ Confier à quelqu'un d'autre                     │ Remettre en question la pertinence de la tâche
-                  │                                                 │ 
-                  │ Ex : Demandes administratives, Courriels.       │ Ex : Navigations Réseaux Sociaux, Réunions.
-</pre>
+<table>
+  <thead>
+    <tr>
+      <th style="border: none;"></th>
+      <th style="border-bottom: 2px solid #333; padding: 15px; text-align: left;">Urgent</th>
+      <th style="border-bottom: 2px solid #333; padding: 15px; text-align: left;">Non urgent</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border-right: 2px solid #333; padding: 15px; font-weight: bold; vertical-align: top;">Important</td>
+      <td style="border-right: 1px solid #dcdcdc; border-bottom: 1px solid #dcdcdc; padding: 20px; vertical-align: top;">
+        <b>À FAIRE</b><br><br>
+        Faire immédiatement<br><br>
+        Ex: Gérer une urgence client ou bien Respecter une échéance.
+      </td>
+      <td style="border-bottom: 1px solid #dcdcdc; padding: 20px; vertical-align: top;">
+        <b>À PLANIFIER</b><br><br>
+        Planifier dans votre agenda<br><br>
+        Ex : Formation, Planification Stratégique.
+      </td>
+    </tr>
+    <tr>
+      <td style="border-right: 2px solid #333; padding: 15px; font-weight: bold; vertical-align: top;">Non important</td>
+      <td style="border-right: 1px solid #dcdcdc; padding: 20px; vertical-align: top;">
+        <b>À DÉLÉGUER</b><br><br>
+        Confier à quelqu'un d'autre<br><br>
+        Ex : Demande administratives, Courriels peu stratégiques.
+      </td>
+      <td style="padding: 20px; vertical-align: top;">
+        <b>À ÉLIMINER OU REPORTER</b><br><br>
+        Remettre en question la pertinence de la tâche<br><br>
+        Ex : Navigations Réseaux Sociaux, Réunions inutiles.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 
 ## 2. Organisez votre journée à l’aide de blocs de temps
