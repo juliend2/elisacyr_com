@@ -18,13 +18,13 @@ Voici trois clés qui vous aideront à mieux vous organiser au quotidien.
 
 La matrice d’Eisenhower est un outil simple et efficace qui permet de classer vos tâches selon deux critères : leur importance et leur urgence. Voici comment interpréter les différentes catégories :
 
- *Urgent et Important : ces tâches doivent être réalisées immédiatement. 
+ * Urgent et Important : ces tâches doivent être réalisées immédiatement. 
 
- *Important mais non urgent : ces tâches méritent d’être planifiées rapidement afin d’éviter qu’elles ne deviennent urgentes.
+ * Important mais non urgent : ces tâches méritent d’être planifiées rapidement afin d’éviter qu’elles ne deviennent urgentes.
 
- *Urgent, mais non important : ces tâches peuvent souvent être déléguées, par exemple à votre assistante ou à un membre de votre équipe.
+ * Urgent, mais non important : ces tâches peuvent souvent être déléguées, par exemple à votre assistante ou à un membre de votre équipe.
 
- *Ni urgent ni important : prenez le temps d’évaluer si ces tâches sont réellement nécessaires. Si elles le sont, planifiez-les à plus long terme.  
+ * Ni urgent ni important : prenez le temps d’évaluer si ces tâches sont réellement nécessaires. Si elles le sont, planifiez-les à plus long terme.  
 
 
 La matrice d’Eisenhower :
