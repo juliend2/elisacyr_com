@@ -34,8 +34,6 @@ La matrice d’Eisenhower est un outil simple et efficace qui permet de classer 
 | **Non important** | **À DÉLÉGUER** <br><br> Confier à quelqu'un d'autre <br><br> Ex : Demande administratives, Courriels peu stratégiques. | **À ÉLIMINER OU REPORTER** <br><br> Remettre en question la pertinence de la tâche <br><br> Ex : Navigations Réseaux Sociaux, Réunions inutiles. |
 
 
-
-
 ## 2. Organisez votre journée à l’aide de blocs de temps
 
 Une fois vos priorités établies grâce à la matrice d’Eisenhower, l’étape suivante consiste à structurer efficacement votre journée. La méthode des blocs de temps consiste à regrouper des tâches similaires dans des plages horaires déterminées. Cette approche permet de réduire les distractions, d’améliorer la concentration et d’augmenter la productivité. Pour maximiser les bénéfices de cette méthode, accordez à chaque bloc un objectif précis et évitez les interruptions pendant toute sa durée.
