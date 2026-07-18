@@ -30,6 +30,28 @@
             })
           })
         }
+
+        // 1. Find all tables on the page
+        const tables = document.querySelectorAll(".article table");
+
+        tables.forEach((table) => {
+          // Skip if the table is already wrapped to prevent duplicate wrappers
+          if (table.parentElement.classList.contains("table-container")) {
+            return;
+          }
+
+          // 2. Create the wrapper div element
+          const wrapper = document.createElement("div");
+          wrapper.classList.add("table-container");
+
+          // 3. Place the wrapper right before the table in the DOM tree
+          table.parentNode.insertBefore(wrapper, table);
+
+          // 4. Move the table inside the wrapper
+          // (Appending an existing element automatically moves it from its old location)
+          wrapper.appendChild(table);
+        });
+
       }
     </script>
 	</head>

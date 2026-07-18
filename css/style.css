@@ -373,6 +373,24 @@ table td {
   margin-bottom: .5rem;
   font-size: 1.2rem;
 }
+
+@media (max-width: 760px) {
+  .table-container {
+    width: 100%;
+    overflow-x: auto;
+    /* Smooth inertia scrolling on iOS devices */
+    -webkit-overflow-scrolling: touch; 
+  }
+
+  .table-container table {
+    width: 100%;
+    /* Ensures cells don't squish down into tiny unreadable columns */
+  }
+  .table-container table td {
+    min-width: 170px;
+  }
+}
+
 .article .article-meta {
   font-size: 1rem;
   margin-bottom: 1rem;
