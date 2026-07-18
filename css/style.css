@@ -338,7 +338,7 @@ table td {
 /* article titre */
 .article-titre {
   /*background: var(--pastel-khaki); */
-  background: url("/images/background-blog-post-upscaled.jpg") no-repeat left top;
+  background: url("/images/background-blog-post-upscaled.jpg") no-repeat left center;
   background-size: cover;
   color: var(--white);
 }
